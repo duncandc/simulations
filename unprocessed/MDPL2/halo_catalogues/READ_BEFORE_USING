@@ -1,0 +1,27 @@
+MDPL2 Catalogs Public Release, version 1.0.  (2/12/2016).
+
+Each "hlist" file is a catalog which contains all the halos and subhalos at a
+single simulation output, in ASCII format.
+
+The numbers in the filename (e.g., hlist_0.XYZ) refer to the scale factor of the
+output.  Each halo record is a single line, which has many space-separated columns.
+The details of what is in each column is contained in the first few lines of each
+catalog, and includes halo positions, velocities, masses, and many other useful
+properties.  Some columns contain indices (e.g., depthFirstIndex) which are only
+relevant for merger trees---these are kept only for consistency with the merger
+tree format.
+
+Further details of the catalog format are available in the appendix of this paper, which also
+contains scaling relations and fitting functions for many halo properties:
+
+http://arxiv.org/abs/1602.04813 (Rodriguez-Puebla et al., 2016).
+
+If you use these catalogs, please cite the following three papers:
+
+The original MultiDark/Bolshoi-Planck simulation paper: http://arxiv.org/abs/1411.4001 (Klypin et al. 2014).
+The Rockstar halo finder paper: http://arxiv.org/abs/1110.4372 (Behroozi, Wechsler, and Wu, 2012).
+The consistent merger trees paper: http://arxiv.org/abs/1110.4370 (Behroozi et al. 2012).
+
+Please also acknowledge the simulation and data sources as follows:
+
+This study made use of data from the CosmoSim database (http://www.cosmosim.org/), hosted and maintained by the Leibniz-Institute for Astrophysics Potsdam (AIP).  The MultiDark-Planck (MDPL) and the BigMD simulation suite have been performed on the Supermuc supercomputer at LRZ using time granted by PRACE. 

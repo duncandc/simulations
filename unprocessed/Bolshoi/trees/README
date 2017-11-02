@@ -1,0 +1,5 @@
+This directory contains code to download and process trees for the Bolshoi simulation.
+
+The trees were downloaded and processed on Omega.
+
+Jobs were submitted on Omega using the *_job scripts.

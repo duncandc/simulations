@@ -1,0 +1,9 @@
+These files were downloaded from Cosmosim.org
+
+Each file was the result of an SQL query on the cosmosim server.
+For example, the density field for redshift 0 was the result of the following query: 
+
+SELECT snapnum, ix, iy, iz, dens FROM Bolshoi.Dens256 where snapnum=416
+
+The file naming scheme is densxxx_yyy.csv, 
+where xxx is the grid spacing, and yyy is the snapshot number.

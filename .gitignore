@@ -1,4 +1,11 @@
 
+#ignore data files
 *.csv
 *.hdf5
 *.dat
+*.npy
+*.list
+*.gz
+
+#ignore other stuff
+*.DS_Store

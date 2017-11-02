@@ -1,0 +1,27 @@
+Bolshoi-Planck Catalogs Public Release, version 1.55.  (12/18/2015).
+
+Each "hlist" file is a catalog which contains all the halos and subhalos at a
+single simulation output, in ASCII format.
+
+The numbers in the filename (e.g., hlist_0.XYZ) refer to the scale factor of the
+output.  Each halo record is a single line, which has many space-separated columns.
+The details of what is in each column is contained in the first few lines of each
+catalog, and includes halo positions, velocities, masses, and many other useful
+properties.  Some columns contain indices (e.g., depthFirstIndex) which are only
+relevant for merger trees---these are kept only for consistency with the merger
+tree format.
+
+Further details of the catalog format are available in the appendix of this paper, which also
+contains scaling relations and fitting functions for many halo properties:
+
+http://arxiv.org/abs/1602.04813 (Rodriguez-Puebla et al., 2016).
+
+If you use these catalogs, please cite the following three papers:
+
+The original Bolshoi-Planck simulation paper: http://arxiv.org/abs/1411.4001 (Klypin et al. 2014).
+The Rockstar halo finder paper: http://arxiv.org/abs/1110.4372 (Behroozi, Wechsler, and Wu, 2012).
+The consistent merger trees paper: http://arxiv.org/abs/1110.4370 (Behroozi et al. 2012).
+
+Please also acknowledge the simulation and data sources as follows:
+
+The Bolshoi-Planck simulation was performed by Anatoly Klypin within the Bolshoi project of the University of California High-Performance AstroComputing Center (UC-HiPACC) and was run on the Pleiades supercomputer at the NASA Ames Research Center.
