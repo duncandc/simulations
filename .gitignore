@@ -8,4 +8,4 @@
 *.gz
 
 #ignore other stuff
-*.DS_Store
+.DS_Store
