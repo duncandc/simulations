@@ -1,3 +1,3 @@
-#Unprocessed Catalogues
+# Unprocessed Catalogues
 
-This directory contains unprocessed ascii files for simulation data
+This directory contains the raw, unprocessed, ascii files for simulation data.
